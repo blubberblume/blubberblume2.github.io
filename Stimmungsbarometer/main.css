@@ -1,0 +1,138 @@
+header {
+    background: darkblue;
+    color: white;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 1rem;
+    margin: 0;
+}
+
+footer {
+    position: sticky;
+    background: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    margin-top: 2rem;
+}
+
+footer button {
+    margin: 2px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app-name {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    width: 70%;
+}
+
+.left-box p {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.smiley-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.smiley-box img {
+    width: 8%;
+    height: auto;
+    margin: 1rem;
+    border: 12px solid lightgray;
+    border-bottom: 16px solid lightgray;
+}
+
+.smiley-box img:hover {
+    border: 12px solid green;
+    border-bottom: 16px solid green;
+}
+
+.right-box {
+    background: lightgray;
+    width: 30%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    /* padding: 2rem 1rem 1rem 1rem; */
+    align-items: center;
+    justify-content: center;
+}
+
+.result-box {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    height: 20%;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+
+.result-green {
+    background: green;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-lightgreen {
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-yellow {
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-orange {
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-red {
+    background: red;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentMoodImage {
+    width: 4%;
+    height: auto;
+}
